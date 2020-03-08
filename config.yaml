@@ -52,19 +52,19 @@ languages:
     menu:
       main:
         - name: "Aggiornamenti"
-          url: "/updates/"
+          url: "/it/updates/"
           weight: 1
         - name: "Linee guida"
-          url: "/guides/"
+          url: "/it/guides/"
           weight: 2
         - name: "Mappa interattiva"
-          url: "/map/"
+          url: "/it/map/"
           weight: 3
         - name: "FAQ"
-          url: "/faq"
+          url: "/it/faq"
           weight: 4
         - name: "A proposito di"
-          url: "/about"
+          url: "/it/about"
           weight: 5
       # Footer Menu
       footer:
