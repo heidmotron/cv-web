@@ -1,0 +1,91 @@
+baseURL: "http://www.endcoronavirus.org/"
+languageCode: "en-us"
+title: "End Coronavirus"
+theme: "hugo-serif-theme"
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    params:
+      homepage_meta_tags:
+        meta_description: "Stay informed with the latest news on preventing and defeating the spread of COVID-19, written and published by experts in the field."
+        meta_og_title: "End Coronavirus"
+        meta_og_type: "website"
+        meta_og_url: "https://www.endcoronavirus.com"
+        meta_og_image: "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
+        meta_og_description: "Stay informed with the latest news on preventing and defeating the spread of COVID-19, written and published by experts in the field."
+        meta_twitter_card: "summary"
+        meta_twitter_site: "@end_COVID19"
+    meta_twitter_creator: "@end_COVID19"
+    menu:
+      main:
+        - name: "Updates"
+          url: "/updates/"
+          weight: 1
+        - name: "Guides"
+          url: "/guides/"
+          weight: 2
+        - name: "Interactive Map"
+          url: "/map/"
+          weight: 3
+        - name: "FAQ"
+          url: "/faq"
+          weight: 4
+        - name: "About"
+          url: "/about"
+          weight: 5
+
+
+      # Footer Menu
+      footer:
+        - name: "Home"
+          url: "/"
+          weight: 1
+        - name: "Contact"
+          url: "/contact/"
+          weight: 2
+  it: 
+    languageName: Italian
+    weight: 2
+    contentDir: "content/it"
+    menu:
+      main:
+        - name: "Updates"
+          url: "/updates/"
+          weight: 1
+        - name: "Guides"
+          url: "/guides/"
+          weight: 2
+        - name: "Interactive Map"
+          url: "/map/"
+          weight: 3
+        - name: "FAQ"
+          url: "/faq"
+          weight: 4
+        - name: "About"
+          url: "/about"
+          weight: 5
+      # Footer Menu
+      footer:
+        - name: "Le Home"
+          url: "/fr/"
+          weight: 1
+        - name: "Le Contact"
+          url: "/fr/contact/"
+          weight: 2
+  es:
+    languageName: Spanish
+    weight: 3
+
+params:
+  homepage_meta_tags:
+    meta_description: "Stay informed with the latest news on preventing and defeating the spread of COVID-19, written and published by experts in the field."
+    meta_og_title: "End Coronavirus"
+    meta_og_type: "website"
+    meta_og_url: "https://www.endcoronavirus.com"
+    meta_og_image: "https://raw.githubusercontent.com/JugglerX/hugo-serif-theme/master/images/tn.png"
+    meta_og_description: "Stay informed with the latest news on preventing and defeating the spread of COVID-19, written and published by experts in the field."
+    meta_twitter_card: "summary"
+    meta_twitter_site: "@end_COVID19"
+    meta_twitter_creator: "@end_COVID19"
