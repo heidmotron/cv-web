@@ -51,19 +51,19 @@ languages:
     contentDir: "content/it"
     menu:
       main:
-        - name: "Updates"
+        - name: "Aggiornamenti"
           url: "/updates/"
           weight: 1
-        - name: "Guides"
+        - name: "Linee guida"
           url: "/guides/"
           weight: 2
-        - name: "Interactive Map"
+        - name: "Mappa interattiva"
           url: "/map/"
           weight: 3
         - name: "FAQ"
           url: "/faq"
           weight: 4
-        - name: "About"
+        - name: "A proposito di"
           url: "/about"
           weight: 5
       # Footer Menu
