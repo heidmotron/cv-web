@@ -7,6 +7,7 @@ languages:
   en:
     languageName: English
     weight: 1
+    contentDir: "content/en"
     params:
       homepage_meta_tags:
         meta_description: "Stay informed with the latest news on preventing and defeating the spread of COVID-19, written and published by experts in the field."
